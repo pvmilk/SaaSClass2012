@@ -5,7 +5,6 @@ def anagrams?(stringA, stringB)
 end
 
 def combine_anagrams(words)
-<<<<<<< HEAD
     # your code here
     # HINT: you can quickly tell if two words are anagrams by sorting their
     #  letters, keeping in mind that upper vs lowercase doesn't matter
@@ -25,7 +24,4 @@ def combine_anagrams(words)
       end
     end
     ret
-=======
-  # your code here
->>>>>>> upstream/master
 end
