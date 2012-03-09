@@ -1,6 +1,7 @@
 ### Part IV - basic OOP
 
 class Dessert
+<<<<<<< HEAD
     def initialize(name, calories)
         # your code here
         @name = name
@@ -36,4 +37,27 @@ class JellyBean < Dessert
             true
         end
     end
+=======
+  def initialize(name, calories)
+    # your code here
+  end
+
+  def healthy?
+    # your code here
+  end
+
+  def delicious?
+    # your code here
+  end
+end
+
+class JellyBean < Dessert
+  def initialize(name, calories, flavor)
+    # your code here
+  end
+
+  def delicious?
+    # your code here
+  end
+>>>>>>> upstream/master
 end

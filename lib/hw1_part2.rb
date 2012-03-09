@@ -8,6 +8,7 @@ def right_strategy?(string)
 end
 
 def rps_game_winner(game)
+<<<<<<< HEAD
     raise WrongNumberOfPlayersError unless game.length == 2
     # your code here
     a = game[0][1].downcase
@@ -31,4 +32,12 @@ def rps_tournament_winner(tournament)
     c_game = [rps_tournament_winner(l_winner), rps_tournament_winner(r_winner)]
     rps_game_winner(c_game)
 
+=======
+  raise WrongNumberOfPlayersError unless game.length == 2
+  # your code here
+end
+
+def rps_tournament_winner(tournament)
+  # your code here
+>>>>>>> upstream/master
 end
